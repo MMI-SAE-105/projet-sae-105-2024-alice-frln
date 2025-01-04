@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Frelin
+- PRÉNOM : Alice
+- GROUPE : B1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/pUqy2i8wSh05YtvjjISjeD/refonte-site-projet-solo?node-id=12-2&t=urmo2VPwIlWnXUGr-1
