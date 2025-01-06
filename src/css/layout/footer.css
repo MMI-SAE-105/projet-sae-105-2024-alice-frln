@@ -1,0 +1,13 @@
+.footer{
+    background-color: var(--footer-color);
+    color :white;
+}
+
+.footer--menu{
+    text-align: center;
+}
+
+.footer--text{
+    font-size: var(--fs-xs);
+    font-weight: 300;
+}

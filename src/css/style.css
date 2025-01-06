@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+
+/* Vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variable.css";
+@import "utils/fonts.css";
+
+/* Base */
+@import "base/main.css";
+@import "base/media.css";
+
+/* Layout */
+@import "layout/header.css";
+@import "layout/footer.css";
+
+/* Components */
+@import "components/article.css";
+@import "components/black-background.css";
+@import "components/menu.css";

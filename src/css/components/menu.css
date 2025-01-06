@@ -1,0 +1,84 @@
+.menu {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, var(--marron), var(--main-pink), var(--rose-clair));;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+}
+  
+.menu__link {
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-subtitle);
+    display: block;
+    padding-bottom: 30px;
+}
+ 
+.menu__list {
+    padding-left: var(--space-sm);
+    padding-top: var(--space-xxxl)
+}
+
+.menu--big{
+    font-size: var(--fs-3xlbis);
+}
+
+.menu--small {
+    font-size: var(--fs-2xl);
+}
+
+.menu-btn {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+  
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+  
+.menu-btn__bar::before {
+    top: -8px;
+}
+  
+.menu-btn__bar::after {
+    top: 8px;
+}
+  
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+   
+}
+  
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+}

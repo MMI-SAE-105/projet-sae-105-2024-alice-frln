@@ -1,0 +1,76 @@
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-md);
+  color: var(--body-color);
+  line-height: 1.235;
+  background-color: var(--gray-white);
+  font-weight: 400;
+  }
+
+.section--title {
+    font-family: var(--font-subtitle);
+    font-size: var(--fs-xl)
+}
+
+.section--subtitle {
+    font-family: var(--font-subtitle);
+    font-size: var(--fs-lg)
+}
+
+.legende {
+    margin-top: 5px;
+    padding-left: var(--space-sm);
+    font-size: var(--fs-xs);
+    font-weight: 300;
+    color: var(--marron);
+}
+
+.link{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Pour enlever l'apparence par défaut des listes */
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Pour rendre invisible mais laisser accessible */
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.highlight {
+  background-color: var(--primary);
+  padding: 4px var(--space1x);
+  font-weight: 500;
+}

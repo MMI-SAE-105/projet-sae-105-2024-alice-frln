@@ -1,0 +1,33 @@
+.article--title {
+    font-family: var(--font-subtitle);
+    font-size: var(--fs-xl);
+    color: var(--body-color);
+    line-height: 1.04;
+}
+
+.article--chapo {
+    font-family: var(--font-body);
+    font-size: var(--fs-lg);
+    color: var(--body-color);
+    line-height: 1.2;
+}
+
+.article--info {
+    font-family: var(--font-body);
+    font-size: var(--fs-s);
+    color: var(--main-pink);
+    line-height: 1.2;
+}
+
+.article--subtitle{
+    font-size: var(--fs-ml);
+    font-weight: 700;
+}
+
+.article--image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+}

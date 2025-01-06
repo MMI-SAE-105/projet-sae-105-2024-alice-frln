@@ -1,0 +1,36 @@
+:root {
+    /* Color styles */
+    --gris-clair-maquette: #fafafa;
+    --footer-color: #3a3a3a;
+    --marron: #4c2d2c;
+    --orange-maquette: #ff907a;
+    --rose-clair: #c9b0bd;
+    --main-pink: #ba2c62;
+    --body-color: #000000;
+  
+    /* Text-size styles */
+    --fs-xs: 0.75rem;
+    --fs-s: 0.875rem;
+    --fs-md: 1rem;
+    --fs-ml: 1.125rem;
+    --fs-lg: 1.375rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2.1875rem;
+    --fs-3xlbis: 2.5rem;
+    --fs-3xl: 2.625rem;
+    --fs-4xl: 3.125rem;
+  
+    /* Font-family styles */
+    --font-body: "Inter", sans-serif;
+    --font-subtitle: "Code Bold";
+  
+    /* Espaces */
+    --space-xs: 10px;
+    --space-s: 20px;
+    --space-sm: 30px;
+    --space-m: 40px;
+    --space-l: 60px;
+    --space-xl: 80px;
+    --space-xxl: 120px;
+    --space-xxxl: 140px;
+  }
