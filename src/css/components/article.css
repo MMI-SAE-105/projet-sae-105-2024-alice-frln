@@ -1,4 +1,7 @@
 .article--title {
+    margin-top: var(--space-m);
+    margin-bottom: var(--space-xxs);
+    padding-left: var(--space-xs);
     font-family: var(--font-subtitle);
     font-size: var(--fs-xl);
     color: var(--body-color);
@@ -6,6 +9,9 @@
 }
 
 .article--chapo {
+    margin-top: 0;
+    margin-bottom: var(--space-xxs);
+    padding-left: var(--space-xs);
     font-family: var(--font-body);
     font-size: var(--fs-lg);
     color: var(--body-color);
@@ -13,6 +19,9 @@
 }
 
 .article--info {
+    margin-top: 0;
+    margin-bottom: var(--space-m);
+    padding-left: var(--space-xs);
     font-family: var(--font-body);
     font-size: var(--fs-s);
     color: var(--main-pink);
@@ -22,6 +31,11 @@
 .article--subtitle{
     font-size: var(--fs-ml);
     font-weight: 700;
+}
+
+.article--section {
+    padding-left: var(--space-s);
+    padding-right: var(--space-xs);
 }
 
 .article--image{

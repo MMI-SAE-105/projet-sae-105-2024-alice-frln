@@ -25,7 +25,8 @@
     --font-subtitle: "Code Bold";
   
     /* Espaces */
-    --space-xs: 10px;
+    --space-xxs: 10px;
+    --space-xs: 15px;
     --space-s: 20px;
     --space-sm: 30px;
     --space-m: 40px;

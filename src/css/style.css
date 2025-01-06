@@ -12,10 +12,13 @@
 @import "base/media.css";
 
 /* Layout */
+@import "layout/accordeon.css";
+@import "layout/carousel.css";
 @import "layout/header.css";
 @import "layout/footer.css";
 
 /* Components */
 @import "components/article.css";
 @import "components/black-background.css";
+@import "components/contact.css";
 @import "components/menu.css";

@@ -19,6 +19,7 @@ body {
 
 .legende {
     margin-top: 5px;
+    margin-bottom: var(--space-s);
     padding-left: var(--space-sm);
     font-size: var(--fs-xs);
     font-weight: 300;
