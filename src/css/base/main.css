@@ -5,7 +5,12 @@ body {
   line-height: 1.235;
   background-color: var(--gray-white);
   font-weight: 400;
-  }
+}
+
+.body--padding{
+  padding-left: var(--space-sm);
+  padding-right: var(--space-xs);
+}
 
 .legende {
     margin-top: 5px;
@@ -14,6 +19,17 @@ body {
     font-size: var(--fs-xs);
     font-weight: 300;
     color: var(--marron);
+}
+
+.page--title {
+  margin: 0;
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-xxl);
+  font-family: var(--font-subtitle);
+  font-size: var(--fs-5xl);
+  color: white;
+  text-align: center;
+  background: linear-gradient(to bottom,var(--marron), var(--main-pink), var(--marron));
 }
 
 .link{

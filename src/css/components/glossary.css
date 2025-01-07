@@ -1,0 +1,17 @@
+.glossary-title {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: var(--fs-ml);
+    font-weight: 700;
+    color: var(--marron);
+}
+
+.glossary p {
+    margin: 0;
+    padding-bottom: var(--space-sm);
+}
+
+.glossary {
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-sm)
+}

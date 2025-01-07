@@ -3,7 +3,6 @@
     --gris-clair-maquette: #fafafa;
     --footer-color: #3a3a3a;
     --marron: #4c2d2c;
-    --orange-maquette: #ff907a;
     --rose-clair: #c9b0bd;
     --main-pink: #ba2c62;
     --body-color: #000000;
@@ -22,6 +21,7 @@
     --fs-3xlbis: 2.5rem;
     --fs-3xl: 2.625rem;
     --fs-4xl: 3.125rem;
+    --fs-5xl: 4rem;
   
     /* Font-family styles */
     --font-body: "Inter", sans-serif;
