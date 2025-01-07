@@ -2,3 +2,8 @@
     font-family: 'Code Bold';
     src: url(/assets/fonts/CODE-Bold.woff2) format('woff2');
   }
+
+  @font-face {
+    font-family: 'Protipo Variable';
+    src: url(/assets/fonts/OnlineWebFonts_COM_6c15159d3e0158387eab3885af90ee21/Protipo-Variable/Protipo-Variable.woff2) format('woff2');
+  }
