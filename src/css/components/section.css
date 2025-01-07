@@ -1,5 +1,7 @@
 .section--title {
+    margin-top: 0;
     margin-bottom: 0;
+    padding-top: var(--space-s);
     padding-left: var(--space-xxs);
     padding-right: var(--space-xxs);
     font-family: var(--font-subtitle);
