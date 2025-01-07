@@ -6,5 +6,5 @@
 - NOM : Frelin
 - PRÉNOM : Alice
 - GROUPE : B1
-- URL du site : https://futureup-alice-frelin.netlify.app/
+- URL du site : https://futureup.alice-frelin.fr/fr/
 - URL FIGMA : https://www.figma.com/design/pUqy2i8wSh05YtvjjISjeD/refonte-site-projet-solo?node-id=12-2&t=urmo2VPwIlWnXUGr-1
