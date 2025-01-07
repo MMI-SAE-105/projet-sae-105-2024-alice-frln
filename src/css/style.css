@@ -20,5 +20,6 @@
 /* Components */
 @import "components/article.css";
 @import "components/black-background.css";
-@import "components/contact.css";
+@import "components/form.css";
 @import "components/menu.css";
+@import "components/section.css";

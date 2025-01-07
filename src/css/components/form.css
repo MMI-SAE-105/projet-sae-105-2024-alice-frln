@@ -1,17 +1,22 @@
 .contact-form {
     background: #fff;
-    padding: 20px;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: var(--space-l);
+    padding-left: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: var(--font-body);
+    font-weight: 400;
 }
 
 .contact-form h2 {
+    padding-left: 0;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .form-group {
@@ -39,11 +44,12 @@ textarea {
 }
 
 .button-contact {
+    margin-top: var(--space-s);
     display: block;
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: #007BFF;
+    background-color: var(--main-pink);
     color: #fff;
     font-size: 16px;
     border-radius: 4px;
