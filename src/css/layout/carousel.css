@@ -4,9 +4,8 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    background-color: #fff;
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-sm);
 }
 
 .carousel--container {
@@ -23,7 +22,12 @@
 .carousel--img {
     width: 100%;
     height: auto;
-    border-radius: 10px 10px 0 0;
+}
+
+.carousel-item p {
+    font-family: var(--font-subtitle);
+    font-size: var(--fs-md);
+    text-decoration: underline;
 }
 
 .carousel-prev,
