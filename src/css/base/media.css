@@ -20,6 +20,7 @@ video {
 }
 
 .decorative-img {
+  margin: 0;
   width: 100%;
   height: auto;
   padding-top: var(--space-s);

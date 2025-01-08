@@ -1,3 +1,13 @@
+.section--bigtitle {
+    margin: 0;
+    padding-top: var(--space-s);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-xs);
+    font-family: var(--font-subtitle);
+    font-size: var(--fs-4xl);
+    max-width: 100%;
+}
+
 .section--title {
     margin: 0;
     padding-top: var(--space-s);
@@ -16,6 +26,11 @@
     font-family: var(--font-subtitle);
     font-size: var(--fs-lg);
     max-width: 100%;
+}
+
+.intro {
+    margin: 0;
+    padding: 0;
 }
 
 .section--end {

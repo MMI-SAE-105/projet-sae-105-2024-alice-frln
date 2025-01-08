@@ -47,6 +47,15 @@
     padding-top: var(--space-xs);
 }
 
+.article--image--small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+    padding-top: var(--space-xs);
+}
+
 .article--end {
     padding-bottom: var(--space-m);
 }

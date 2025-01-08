@@ -1,0 +1,19 @@
+.thumbnail--text {
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+    font-size: var(--fs-ml);
+    line-height: 1.3;
+}
+
+.thumbnail-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    padding-top: var(--space-xs);
+}
+
+.spotlight {
+    padding-bottom: var(--space-m);
+}
