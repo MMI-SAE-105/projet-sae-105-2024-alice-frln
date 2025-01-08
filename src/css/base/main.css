@@ -33,6 +33,18 @@ body {
   background: linear-gradient(to bottom,var(--marron), var(--main-pink), var(--marron));
 }
 
+.main--error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.error--link{
+  text-decoration: underline;
+}
+
 .link{
     text-decoration: underline;
 }
