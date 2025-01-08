@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-bottom: var(--space-m);
 }
 
 .timeline-item {
@@ -53,17 +54,18 @@
 .timeline-content img {
     width: 100%;
     border-radius: 5px;
-    margin-bottom: 15px;
+    padding-top: 10px;
 }
 
-.timeline-content h2 {
-    font-size: 22px;
+.timeline-content h3 {
+    font-family: var(--font-subtitle);
+    font-size: var(--fs-lg);
     margin-bottom: 10px;
-    color: #222;
+    color: #ffffff;
 }
 
 .timeline-content p {
-    font-size: 16px;
+    font-size: var(--fs-sm);
     margin-bottom: 10px;
     color: white;
 }
@@ -73,4 +75,10 @@
     color: #999;
     text-align: center;
     display: block;
+}
+
+.timeline-legende {
+    margin-top: 0;
+    font-size: var(--fs-xs) !important;
+    font-weight: 300;
 }

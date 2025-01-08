@@ -82,3 +82,9 @@
     transform: rotate(90deg);
     top: 0;
 }
+
+.menu--separation {
+    margin: 0;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: var(--space-xxs);
+}
