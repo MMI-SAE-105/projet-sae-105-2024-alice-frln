@@ -16,6 +16,8 @@
 @import "layout/carousel.css";
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/projet-card.css";
+@import "layout/timeline.css";
 
 /* Components */
 @import "components/article.css";
@@ -24,4 +26,3 @@
 @import "components/glossary.css";
 @import "components/menu.css";
 @import "components/section.css";
-@import "components/timeline.css"
