@@ -18,3 +18,9 @@ video {
     padding-top: var(--space-m);
     padding-bottom: var(--space-sm);
 }
+
+.decorative-img {
+  width: 100%;
+  height: auto;
+  padding-top: var(--space-s);
+}

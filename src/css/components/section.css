@@ -1,7 +1,7 @@
 .section--title {
     margin: 0;
     padding-top: var(--space-s);
-    padding-left: var(--space-s);
+    padding-left: var(--space-sm);
     padding-right: var(--space-xs);
     font-family: var(--font-subtitle);
     font-size: var(--fs-xl);
@@ -11,7 +11,7 @@
 .section--subtitle {
     margin: 0;
     padding-top: var(--space-s);
-    padding-left: var(--space-s);
+    padding-left: var(--space-sm);
     padding-right: var(--space-xs);
     font-family: var(--font-subtitle);
     font-size: var(--fs-lg);
@@ -20,7 +20,7 @@
 
 .section--end {
     margin: 0;
-    border-bottom: 1px solid #000000;
+    border-bottom: 0.5px solid #000000;
     padding-bottom: var(--space-xxs);
 }
 
