@@ -44,4 +44,9 @@
     margin-right: auto;
     width: 85%;
     height: auto;
+    padding-top: var(--space-xs);
+}
+
+.article--end {
+    padding-bottom: var(--space-m);
 }

@@ -59,3 +59,22 @@ document.addEventListener('DOMContentLoaded', () => {
       updateCarousel();
   });
 });
+
+//Changement de langue\\
+document.getElementsByClassName('header--language')[0].addEventListener('click', function() {
+    let currentUrl = window.location.href;
+    var newUrl = '';
+    
+    console.log(currentUrl.search('/fr/'));
+    if (currentUrl.search('/fr/') > 0 )
+    {
+      newUrl = currentUrl.replace('/fr/', '/en/');
+    }
+    else
+    {
+      newUrl = currentUrl.replace('/en/', '/fr/');
+    }
+    
+    console.log(newUrl);
+    window.location.href = newUrl;
+  });

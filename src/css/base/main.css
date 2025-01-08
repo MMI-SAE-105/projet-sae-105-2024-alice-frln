@@ -13,8 +13,9 @@ body {
 }
 
 .legende {
-    margin-top: 5px;
-    margin-bottom: var(--space-s);
+  margin: 0;
+    padding-top: 5px;
+    padding-bottom: var(--space-sm);
     padding-left: var(--space-sm);
     font-size: var(--fs-xs);
     font-weight: 300;
